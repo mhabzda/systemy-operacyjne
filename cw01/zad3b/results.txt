@@ -1,0 +1,368 @@
+SHARED -O0:
+
+----Lista---- 
+Dodawanie kontaktu:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Tworzenie:
+Czas rzeczywisty: 12 ms
+Czas uzytkownika: 12 ms
+Czas systemu: 0 ms
+Szukanie optymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Usuwanie optymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Szukanie pesymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Usuwanie pesymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Sortowanie:
+Czas rzeczywisty: 675 ms
+Czas uzytkownika: 672 ms
+Czas systemu: 0 ms
+----BST---- 
+Dodawanie kontaktu:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Tworzenie:
+Czas rzeczywisty: 18 ms
+Czas uzytkownika: 16 ms
+Czas systemu: 0 ms
+Szukanie optymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Usuwanie optymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Szukanie pesymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Usuwanie pesymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Przebudowa:
+Czas rzeczywisty: 640 ms
+Czas uzytkownika: 636 ms
+Czas systemu: 4 ms
+
+SHARED -O3:
+
+----Lista---- 
+Dodawanie kontaktu:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Tworzenie:
+Czas rzeczywisty: 14 ms
+Czas uzytkownika: 12 ms
+Czas systemu: 0 ms
+Szukanie optymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Usuwanie optymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Szukanie pesymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Usuwanie pesymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Sortowanie:
+Czas rzeczywisty: 659 ms
+Czas uzytkownika: 652 ms
+Czas systemu: 4 ms
+----BST---- 
+Dodawanie kontaktu:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Tworzenie:
+Czas rzeczywisty: 17 ms
+Czas uzytkownika: 16 ms
+Czas systemu: 0 ms
+Szukanie optymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Usuwanie optymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Szukanie pesymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Usuwanie pesymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Przebudowa:
+Czas rzeczywisty: 643 ms
+Czas uzytkownika: 644 ms
+Czas systemu: 0 ms
+
+STATIC -O0:
+
+----Lista---- 
+Dodawanie kontaktu:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Tworzenie:
+Czas rzeczywisty: 84 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 84 ms
+Szukanie optymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Usuwanie optymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Szukanie pesymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Usuwanie pesymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Sortowanie:
+Czas rzeczywisty: 645 ms
+Czas uzytkownika: 636 ms
+Czas systemu: 4 ms
+----BST---- 
+Dodawanie kontaktu:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Tworzenie:
+Czas rzeczywisty: 20 ms
+Czas uzytkownika: 8 ms
+Czas systemu: 12 ms
+Szukanie optymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Usuwanie optymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Szukanie pesymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Usuwanie pesymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Przebudowa:
+Czas rzeczywisty: 630 ms
+Czas uzytkownika: 628 ms
+Czas systemu: 0 ms
+
+STATIC -O3:
+
+----Lista---- 
+Dodawanie kontaktu:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Tworzenie:
+Czas rzeczywisty: 22 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 24 ms
+Szukanie optymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Usuwanie optymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Szukanie pesymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Usuwanie pesymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Sortowanie:
+Czas rzeczywisty: 644 ms
+Czas uzytkownika: 640 ms
+Czas systemu: 0 ms
+----BST---- 
+Dodawanie kontaktu:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Tworzenie:
+Czas rzeczywisty: 19 ms
+Czas uzytkownika: 12 ms
+Czas systemu: 8 ms
+Szukanie optymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Usuwanie optymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Szukanie pesymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Usuwanie pesymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Przebudowa:
+Czas rzeczywisty: 644 ms
+Czas uzytkownika: 640 ms
+Czas systemu: 0 ms
+
+DYNAMIC -O0:
+
+----Lista---- 
+Dodawanie kontaktu:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Tworzenie:
+Czas rzeczywisty: 48 ms
+Czas uzytkownika: 20 ms
+Czas systemu: 28 ms
+Szukanie optymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Usuwanie optymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Szukanie pesymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Usuwanie pesymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Sortowanie:
+Czas rzeczywisty: 641 ms
+Czas uzytkownika: 656 ms
+Czas systemu: 0 ms
+----BST---- 
+Dodawanie kontaktu:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Tworzenie:
+Czas rzeczywisty: 15 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Szukanie optymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Usuwanie optymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Szukanie pesymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Usuwanie pesymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Przebudowa:
+Czas rzeczywisty: 776 ms
+Czas uzytkownika: 780 ms
+Czas systemu: 0 ms
+
+DYNAMIC -O3:
+
+----Lista---- 
+Dodawanie kontaktu:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Tworzenie:
+Czas rzeczywisty: 12 ms
+Czas uzytkownika: 12 ms
+Czas systemu: 0 ms
+Szukanie optymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Usuwanie optymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Szukanie pesymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Usuwanie pesymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Sortowanie:
+Czas rzeczywisty: 637 ms
+Czas uzytkownika: 636 ms
+Czas systemu: 0 ms
+----BST---- 
+Dodawanie kontaktu:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Tworzenie:
+Czas rzeczywisty: 15 ms
+Czas uzytkownika: 16 ms
+Czas systemu: 0 ms
+Szukanie optymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Usuwanie optymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Szukanie pesymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Usuwanie pesymistyczne:
+Czas rzeczywisty: 0 ms
+Czas uzytkownika: 0 ms
+Czas systemu: 0 ms
+Przebudowa:
+Czas rzeczywisty: 767 ms
+Czas uzytkownika: 768 ms
+Czas systemu: 0 ms
+
+
+//Wyszly zblizone czasy, gdyz optymalizacja zostala wykonana tylko na pliku testowym(test.c)
