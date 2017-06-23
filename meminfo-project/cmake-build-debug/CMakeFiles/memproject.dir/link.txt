@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmemproject.a  CMakeFiles/memproject.dir/meminfo.c.o
+/usr/bin/ranlib libmemproject.a

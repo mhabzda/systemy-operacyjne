@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/marcin/CLionProjects/meminfo-project/meminfo.c
+meminfo.h
+/home/marcin/CLionProjects/meminfo-project/meminfo.h
+
+/home/marcin/CLionProjects/meminfo-project/meminfo.h
+stdbool.h
+-
+mydef.h
+/home/marcin/CLionProjects/meminfo-project/mydef.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+wait.h
+-
+fcntl.h
+-
+pthread.h
+-
+mqueue.h
+-
+malloc.h
+-
+string.h
+-
+
+/home/marcin/CLionProjects/meminfo-project/mydef.h
+

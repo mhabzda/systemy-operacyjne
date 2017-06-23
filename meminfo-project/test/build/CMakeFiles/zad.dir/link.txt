@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/zad.dir/program.c.o  -o zad  -L/home/marcin/CLionProjects/memproject/test/../cmake-build-debug -Wl,-Bstatic -lmemproject -Wl,-Bdynamic -lpthread -lrt -Wl,-rpath,/home/marcin/CLionProjects/memproject/test/../cmake-build-debug 

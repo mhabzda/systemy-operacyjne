@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/mytest.dir/mytest.c.o  -o mytest  -L/home/marcin/CLionProjects/meminfo-project/test/../cmake-build-debug -Wl,-Bstatic -lmemproject -Wl,-Bdynamic -lpthread -lrt -Wl,-rpath,/home/marcin/CLionProjects/meminfo-project/test/../cmake-build-debug 

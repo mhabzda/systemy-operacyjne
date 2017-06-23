@@ -1,0 +1,5 @@
+/home/marcin/CLionProjects/meminfo-project/test/build/CMakeFiles/edit_cache.dir
+/home/marcin/CLionProjects/meminfo-project/test/build/CMakeFiles/mytest.dir
+/home/marcin/CLionProjects/meminfo-project/test/build/CMakeFiles/rebuild_cache.dir
+/home/marcin/CLionProjects/meminfo-project/test/build/CMakeFiles/program.dir
+/home/marcin/CLionProjects/meminfo-project/test/build/CMakeFiles/program2.dir

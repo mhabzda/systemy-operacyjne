@@ -1,0 +1,324 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Meminfo</title>
+
+    <style>
+      .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight .gh {
+  color: #999999;
+}
+.highlight .sr {
+  color: #f6aa11;
+}
+.highlight .go {
+  color: #888888;
+}
+.highlight .gp {
+  color: #555555;
+}
+.highlight .gs {
+}
+.highlight .gu {
+  color: #aaaaaa;
+}
+.highlight .nb {
+  color: #f6aa11;
+}
+.highlight .cm {
+  color: #75715e;
+}
+.highlight .cp {
+  color: #75715e;
+}
+.highlight .c1 {
+  color: #75715e;
+}
+.highlight .cs {
+  color: #75715e;
+}
+.highlight .c, .highlight .cd {
+  color: #75715e;
+}
+.highlight .err {
+  color: #960050;
+}
+.highlight .gr {
+  color: #960050;
+}
+.highlight .gt {
+  color: #960050;
+}
+.highlight .gd {
+  color: #49483e;
+}
+.highlight .gi {
+  color: #49483e;
+}
+.highlight .ge {
+  color: #49483e;
+}
+.highlight .kc {
+  color: #66d9ef;
+}
+.highlight .kd {
+  color: #66d9ef;
+}
+.highlight .kr {
+  color: #66d9ef;
+}
+.highlight .no {
+  color: #66d9ef;
+}
+.highlight .kt {
+  color: #66d9ef;
+}
+.highlight .mf {
+  color: #ae81ff;
+}
+.highlight .mh {
+  color: #ae81ff;
+}
+.highlight .il {
+  color: #ae81ff;
+}
+.highlight .mi {
+  color: #ae81ff;
+}
+.highlight .mo {
+  color: #ae81ff;
+}
+.highlight .m, .highlight .mb, .highlight .mx {
+  color: #ae81ff;
+}
+.highlight .sc {
+  color: #ae81ff;
+}
+.highlight .se {
+  color: #ae81ff;
+}
+.highlight .ss {
+  color: #ae81ff;
+}
+.highlight .sd {
+  color: #e6db74;
+}
+.highlight .s2 {
+  color: #e6db74;
+}
+.highlight .sb {
+  color: #e6db74;
+}
+.highlight .sh {
+  color: #e6db74;
+}
+.highlight .si {
+  color: #e6db74;
+}
+.highlight .sx {
+  color: #e6db74;
+}
+.highlight .s1 {
+  color: #e6db74;
+}
+.highlight .s {
+  color: #e6db74;
+}
+.highlight .na {
+  color: #a6e22e;
+}
+.highlight .nc {
+  color: #a6e22e;
+}
+.highlight .nd {
+  color: #a6e22e;
+}
+.highlight .ne {
+  color: #a6e22e;
+}
+.highlight .nf {
+  color: #a6e22e;
+}
+.highlight .vc {
+  color: #ffffff;
+}
+.highlight .nn {
+  color: #ffffff;
+}
+.highlight .nl {
+  color: #ffffff;
+}
+.highlight .ni {
+  color: #ffffff;
+}
+.highlight .bp {
+  color: #ffffff;
+}
+.highlight .vg {
+  color: #ffffff;
+}
+.highlight .vi {
+  color: #ffffff;
+}
+.highlight .nv {
+  color: #ffffff;
+}
+.highlight .w {
+  color: #ffffff;
+}
+.highlight {
+  color: #ffffff;
+}
+.highlight .n, .highlight .py, .highlight .nx {
+  color: #ffffff;
+}
+.highlight .ow {
+  color: #f92672;
+}
+.highlight .nt {
+  color: #f92672;
+}
+.highlight .k, .highlight .kv {
+  color: #f92672;
+}
+.highlight .kn {
+  color: #f92672;
+}
+.highlight .kp {
+  color: #f92672;
+}
+.highlight .o {
+  color: #f92672;
+}
+    </style>
+    <link href="stylesheets/screen.css" rel="stylesheet" media="screen" />
+    <link href="stylesheets/print.css" rel="stylesheet" media="print" />
+      <script src="javascripts/all.js"></script>
+  </head>
+
+  <body class="index" data-languages="[&quot;C&quot;]">
+    <a href="#" id="nav-button">
+      <span>
+        NAV
+        <img src="images/navbar.png" alt="Navbar" />
+      </span>
+    </a>
+    <div class="tocify-wrapper">
+      <img src="images/logo.png" alt="Logo" />
+        <div class="lang-selector">
+              <a href="#" data-language-name="C">C</a>
+        </div>
+        <div class="search">
+          <input type="text" class="search" id="input-search" placeholder="Search">
+        </div>
+        <ul class="search-results"></ul>
+      <div id="toc">
+      </div>
+        <ul class="toc-footer">
+            <li><a href='https://github.com/tripit/slate'>Documentation Powered by Slate</a></li>
+        </ul>
+    </div>
+    <div class="page-wrapper">
+      <div class="dark-box"></div>
+      <div class="content">
+        <h1 id="wst-p">Wstęp</h1>
+
+<h2 id="biblioteka-meminfo">Biblioteka meminfo</h2>
+
+<p>Biblioteka meminfo służy do analizowania zużycia pamięci przez proces w systemie UNIX. Statystyki ukazywane są w KB, MB oraz stronach. Pozwala ona na analizę pamięci w trakcie uruchamiania procesu, alokacji, dealokacji zasobów przez użytkownia. Umożliwa ponadto obserwację ile pamięci dzielonej używa proces(obsługa pamięci dzielonej Systemu V). Można również uzyskać informacje o pamięci ze struktury mallinfo.</p>
+
+<h1 id="og-lny-opis-dzia-ania">Ogólny opis działania</h1>
+
+<blockquote>
+<p>Struktura Memstat:</p>
+</blockquote>
+<pre class="highlight c tab-c"><code><span class="k">typedef</span> <span class="k">struct</span> <span class="n">mem_info</span> <span class="p">{</span>
+
+    <span class="kt">FILE</span><span class="o">*</span> <span class="n">log_file</span><span class="p">;</span>
+    <span class="kt">long</span> <span class="kt">long</span> <span class="kt">int</span> <span class="n">mmap_mem_start</span><span class="p">;</span>
+    <span class="kt">long</span> <span class="kt">long</span> <span class="kt">int</span> <span class="n">mmap_mem_usr</span><span class="p">;</span>
+    <span class="kt">long</span> <span class="kt">long</span> <span class="kt">int</span> <span class="n">mmap_addr</span><span class="p">[</span><span class="mi">20</span><span class="p">];</span>
+    <span class="kt">long</span> <span class="kt">long</span> <span class="kt">int</span> <span class="n">brk_start</span><span class="p">;</span>
+    <span class="kt">long</span> <span class="kt">long</span> <span class="kt">int</span> <span class="n">brk_usr</span><span class="p">;</span>
+    <span class="kt">long</span> <span class="kt">long</span> <span class="kt">int</span> <span class="n">munmap_mem</span><span class="p">;</span>
+    <span class="kt">long</span> <span class="kt">long</span> <span class="kt">int</span> <span class="n">shm_mem</span><span class="p">;</span>
+    <span class="kt">long</span> <span class="kt">long</span> <span class="kt">int</span> <span class="n">brk_ptr</span><span class="p">;</span>
+    <span class="k">struct</span> <span class="n">mallinfo</span> <span class="o">*</span><span class="n">minfo</span><span class="p">;</span>
+    <span class="n">bool</span> <span class="n">start</span><span class="p">;</span>
+
+<span class="p">}</span> <span class="n">Mem_info</span><span class="p">;</span>
+</code></pre>
+<p>Biblioteka meminfo wykorzystuje strukurę Mem_info w celu zbierania informacji o pamięci w procesie. Wykonywane jest polecenie strace z nazwą analizowanego programu. Następnie wyjście strace jest zapisywane do pliku, który jest analizowany i uaktualniane są odpowiednie elementy struktury:</p>
+
+<ul>
+<li>FILE *logfile - uchwyt do pliku z outputem strace</li>
+<li>long long int mmap_mem_start - mapowana pamięć przy starcie procesu</li>
+<li>long long int mmap_mem_usr - pamięc alokowana przez użytkownika(gdy wywoływana jest funkcja mmap)</li>
+<li>long long int mmap_addr[20] - adresy zwracane z funkcji mmap</li>
+<li>long long int brk_start - pamięć alokowana przy starcie procesu przy użyciu funkcji brk</li>
+<li>long long int brk_usr - pamięć alokowana przez użytkownika(gdy wywoływana jest funkcja brk)</li>
+<li>long long int munmap_mem - zwalniana pamięć zmapowana</li>
+<li>long long int brk_ptr - wskaźnik końca stery</li>
+<li>bool start - flaga mówiąca o tym czy wciąż zbieramy informacje o pamięci przy starcie procesu czy już alokowanej przez użytkownika</li>
+</ul>
+
+<p>Aby uzyskać informacje ze struktury mallinfo program testujący należy uruchomić z opcją -mallinfo. Program testowy musi wówczas uruchomić funckję mem_sendtoque().</p>
+
+<h1 id="funkcje">Funkcje</h1>
+
+<h2 id="mem_generate">mem_generate</h2>
+<pre class="highlight c tab-c"><code><span class="n">Mem_info</span> <span class="o">*</span><span class="n">mem_generate</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="n">prog_name</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">option</span><span class="p">);</span>
+</code></pre>
+<p>Funkcja alokuje i inicjalizuje strukturę Mem_info odpowiednimi wartościami. Przyjmuje dwa argumenty: nazwę programu oraz opcję uruchomienia(w przypadku podania -mallinfo uzyskujemy informacje ze struktury mallinfo).</p>
+
+<h2 id="mem_getstats">mem_getstats</h2>
+<pre class="highlight c tab-c"><code><span class="kt">void</span> <span class="n">mem_getstats</span><span class="p">(</span><span class="n">Mem_info</span> <span class="o">*</span><span class="n">mem_info</span><span class="p">);</span>
+</code></pre>
+<p>Funkcja zbiera odpowiednie informacje o pamięci do struktury Mem_info, którą dostaje jako parametr i odpowiednio modyfikuje.</p>
+
+<h2 id="print_stats">print_stats</h2>
+<pre class="highlight c tab-c"><code><span class="kt">void</span> <span class="n">print_stats</span><span class="p">(</span><span class="n">Mem_info</span> <span class="o">*</span><span class="n">mem_info</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">option</span><span class="p">);</span>
+</code></pre>
+<p>Funkcja w odpowiednim formacie wypisuje informacje o pamięci w procesie. Przyjmuje wskaźnik na strukturę mem_info oraz opcję, która gdy jest równa -mallinfo powoduje wypisanie informacji również o strukturze mallinfo.</p>
+
+<h2 id="mem_sendtoque">mem_sendtoque</h2>
+<pre class="highlight c tab-c"><code><span class="kt">void</span> <span class="n">mem_sendtoque</span><span class="p">();</span>
+</code></pre>
+<p>Funkcja wykorzystywana w programie testowanym w celu przesłania informacji o strukturze mallinfo do programu testującego.</p>
+
+<h2 id="mem_clean">mem_clean</h2>
+<pre class="highlight c tab-c"><code><span class="kt">void</span> <span class="n">mem_clean</span><span class="p">(</span><span class="n">Mem_info</span><span class="o">*</span> <span class="n">mem_info</span><span class="p">);</span>
+</code></pre>
+<p>Funkcja odpowiadająca za czyszczenie zasobów.</p>
+
+<h1 id="zastosowane-mechanizmy-systemowe">Zastosowane mechanizmy systemowe</h1>
+
+<h2 id="procesy">Procesy</h2>
+
+<p>Funkcja <strong>mem_generate</strong> tworzy proces potomny z wykorzystaniem funkcji fork i za pomocą funkcji execlp wykonuje polecenie strace</p>
+
+<h2 id="w-tki">Wątki</h2>
+
+<p>Funkcja <strong>mem_generate</strong> w przypadku podania opcji -mallinfo tworzy nowy wątek w celu stworzenia kolejki komunikatów.</p>
+
+<h2 id="kolejka-komunikat-w-posix">Kolejka komunikatów POSIX</h2>
+
+<p>Funkcja <strong>mem_get_mallinfo</strong> tworzy kolejkę komunikatów POSIX, która jest używana do odebrania struktury mallinfo z programu testowanego.</p>
+
+<h1 id="uruchomienie">Uruchomienie</h1>
+
+<p>Katalog zawiera pliki źródłowe biblioteki wraz z plikiem CMakeLists.txt, który umożliwia jej zbudowanie. Dostępny jest również plik testujący(<em>mytest</em>), który wywołuje odpowiednie funkcje biblioteczne. W celu jego uruchomienia musimy podać argument, który będzie programem testowanym(alokującym pamięć). Można również podać dodatkowy argument -mallinfo, który umożliwia uzyskanie informacji ze struktury mallinfo. Przykładowe użycie: ./mytest ./program -mallinfo. Przygotowany jest również przykładowy program do przetestowania: <em>program</em>.</p>
+
+      </div>
+      <div class="dark-box">
+          <div class="lang-selector">
+                <a href="#" data-language-name="C">C</a>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
