@@ -1,0 +1,33 @@
+1. SIGUSR1 - proces sie konczy (User defined signal 1)
+   SIGTERM - proces zostaje zakonoczny(Terminated)
+   SIGKILL - proces zabity (Killed)
+   SIGSTOP - proces zatrzymany (Stopped)
+
+2. SIGUSR1, SIGTERM - nic sie z procesem nie dzieje
+   SIGKILL - proces zabity (Killed)
+   SIGSTOP - proces zatrzymany (Stopped)
+
+3. SIGUSR1, SIGTERM - sygnal przechwycony przez glowny watek
+   SIGKILL - proces zabity (Killed)
+   SIGSTOP - proces zatrzymany (Stopped)
+
+4. SIGUSR1, SIGTERM - nic sie z procesem nie dzieje
+   SIGKILL - proces zabity (Killed)
+   SIGSTOP - proces zatrzymany (Stopped)
+
+5. SIGUSR1, SIGTERM - sygnal przechwycony przez watek do ktorego zostal wyslany
+   SIGKILL - proces zabity (Killed)
+   SIGSTOP - proces zatrzymany (Stopped)
+
+W przypadku sygnalow SIGKILL i SIGSTOP proces zawsze zachowuje sie tak samo
+(zostaje zabity lub zatrzymany), gdyz tych sygnalow nie mozemy zablokowac,
+zigonorowac czy przechwycic
+
+
+b
+Gdy nie wprowadzimy obslugi sygnalu to caly proces nam sie zakonczy
+Po wprowadzeniu obslugi, sygnal przechwytuje(w nieskonczonosc) watek
+w ktorym wystapilo dzielenie
+
+
+Linux ubuntu(Xubuntu 15.04) 3.19.0-28-generic (Laptop Samsung)

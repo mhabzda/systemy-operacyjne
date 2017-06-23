@@ -1,0 +1,154 @@
+5000 rekordow po 4 bajty
+--Sys sort--
+Czas uzytkownika: 1 s
+Czas systemu: 30 s
+
+--Sys shuffle--
+Czas uzytkownika: 0 s
+Czas systemu: 0 s
+
+--Lib sort--
+Czas uzytkownika: 2 s
+Czas systemu: 15 s
+
+--Lib shuffle--
+Czas uzytkownika: 0 s
+Czas systemu: 0 s
+
+
+2500 rekordow po 4 bajty
+--Sys sort--
+Czas uzytkownika: 0 s
+Czas systemu: 8 s
+
+--Sys shuffle--
+Czas uzytkownika: 0 s
+Czas systemu: 0 s
+
+--Lib sort--
+Czas uzytkownika: 0 s
+Czas systemu: 4 s
+
+--Lib shuffle--
+Czas uzytkownika: 0 s
+Czas systemu: 0 s
+
+-----------------------------------------
+5000 rekordow po 512 bajtow
+--Sys sort--
+Czas uzytkownika: 1 s
+Czas systemu: 31 s
+
+--Sys shuffle--
+Czas uzytkownika: 0 s
+Czas systemu: 0 s
+
+--Lib sort--
+Czas uzytkownika: 3 s
+Czas systemu: 21 s
+
+--Lib shuffle--
+Czas uzytkownika: 0 s
+Czas systemu: 0 s
+
+
+2500 rekordow po 512 bajtow
+--Sys sort--
+Czas uzytkownika: 0 s
+Czas systemu: 8 s
+
+--Sys shuffle--
+Czas uzytkownika: 0 s
+Czas systemu: 0 s
+
+--Lib sort--
+Czas uzytkownika: 0 s
+Czas systemu: 5 s
+
+--Lib shuffle--
+Czas uzytkownika: 0 s
+Czas systemu: 0 s
+
+----------------------------------------
+3500 rekordow po 4096 bajtow
+--Sys sort--
+Czas uzytkownika: 0 s
+Czas systemu: 25 s
+
+--Sys shuffle--
+Czas uzytkownika: 0 s
+Czas systemu: 0 s
+
+--Lib sort--
+Czas uzytkownika: 2 s
+Czas systemu: 28 s
+
+--Lib shuffle--
+Czas uzytkownika: 0 s
+Czas systemu: 0 s
+
+2000 reskordow po 4096 bajtow
+--Sys sort--
+Czas uzytkownika: 0 s
+Czas systemu: 8 s
+
+--Sys shuffle--
+Czas uzytkownika: 0 s
+Czas systemu: 0 s
+
+--Lib sort--
+Czas uzytkownika: 0 s
+Czas systemu: 9 s
+
+--Lib shuffle--
+Czas uzytkownika: 0 s
+Czas systemu: 0 s
+
+------------------------------------
+3000 rekordow po 8192 bajty
+--Sys sort--
+Czas uzytkownika: 0 s
+Czas systemu: 32 s
+
+--Sys shuffle--
+Czas uzytkownika: 0 s
+Czas systemu: 0 s
+
+--Lib sort--
+Czas uzytkownika: 2 s
+Czas systemu: 35 s
+
+--Lib shuffle--
+Czas uzytkownika: 0 s
+Czas systemu: 0 s
+
+1500 rekordow po 8192 bajty
+--Sys sort--
+Czas uzytkownika: 0 s
+Czas systemu: 8 s
+
+--Sys shuffle--
+Czas uzytkownika: 0 s
+Czas systemu: 0 s
+
+--Lib sort--
+Czas uzytkownika: 0 s
+Czas systemu: 9 s
+
+--Lib shuffle--
+Czas uzytkownika: 0 s
+Czas systemu: 0 s
+
+
+Wraz ze zwiekszaniem rozmiaru rekordu czasy dla funkcji biblioteki wzrastaly wzgledem czasow dla funkcji systemu, dla koncowych pomiarow nawet je przekrzaczajac.
+
+
+
+
+
+
+
+
+
+
+
